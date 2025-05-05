@@ -1,3 +1,5 @@
 # Jans Hyprland Theme
 
-DO NOT USE THE THEME YET IT IS STILL IN DEVELOPMENT
+Script works,
+Do not use it when you have existing config it will overwrite.
+Default keybindings are US
