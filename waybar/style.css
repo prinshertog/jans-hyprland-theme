@@ -1,0 +1,12 @@
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 10px;
+}
+
+#cpu, #memory, #battery {
+    background-color: rgb(132, 0, 255);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}

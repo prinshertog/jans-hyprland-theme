@@ -1,0 +1,29 @@
+{
+  "layer": "top",
+  "modules-left": [""],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "battery"],
+
+  "cpu": {
+    "format": "🧠 {usage}% ",
+    "max-length": 50,
+    "interval": 5,
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "format": "⚡ {power}W 🔋 {capacity} 🔄 {cycles} ",
+    "interval": 5,
+  },
+
+  "memory": {
+    "format": "💾 {used}/{total}MB ",
+    "max-length": 50,
+    "interval": 5,
+  },
+
+  "clock": {
+    "format": "{:%H:%M}"
+  }
+}
+
